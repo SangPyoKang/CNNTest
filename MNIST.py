@@ -11,7 +11,7 @@ display_step = 1
 
 
 
-mnist=input_data.read_data_sets('MNIST  _data/ ', one_hot=True)
+mnist=input_data.read_data_sets("MNIST_data/", one_hot=True)
 
 # tensorflow graph input
 X = tf.placeholder('float', [None, 784]) # mnist data image of shape 28 * 28 = 784
