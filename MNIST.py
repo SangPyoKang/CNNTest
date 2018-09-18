@@ -1,4 +1,5 @@
 import tensorflow as tf
+import PyQt5 as py
 import numpy as np
 from tensorflow.examples.tutorials.mnist import input_data
 import matplotlib.pyplot as plt
@@ -27,7 +28,7 @@ b0 = tf.Variable(tf.zeros([10]))
 # layer2 = tf.sigmoid(tf.add(tf.matmul(layer1,W1),b1))
 #
 # W2 = tf.Variable(tf.zeros([10, 10]))
-# b2 = tf.Variable(tf.zeros([10]))
+b2 = tf.Variable(tf.zeros([10]))
 # layer3 = tf.sigmoid(tf.add(tf.matmul(layer2,W2),b2))
 #
 #
